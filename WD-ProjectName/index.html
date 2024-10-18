@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaye Sadji Padungao - Portfolio</title>
+    <link rel="stylesheet" href="ASSETS/css/style.css">
+    <style>
+        body {
+            background: linear-gradient(to bottom right, #ffccff, #ff99cc);
+            font-family: Helvetica, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-color: #ff66b3;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .profile-pic {
+            margin-top: 20px;
+            border: 6px solid white;
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 50%; /* Circular border */
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 20px 0 10px 0;
+            color: #ff66b3;
+        }
+
+        h3 {
+            font-size: 1.8em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #ff66b3;
+            font-family: 'Arial', sans-serif;
+        }
+
+        h4 {
+            font-size: 1.5em;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            color: #ff66b3;
+            font-family: 'Arial', sans-serif;
+        }
+
+        p {
+            color: white;
+            line-height: 1.6;
+            max-width: 600px;
+            text-align: justify; /* Justify text for a cleaner look */
+        }
+
+        hr {
+            border: 1px solid white;
+            margin: 20px 0;
+            width: 100%; /* Full width */
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+
+        .button {
+            background-color: white;
+            color: #ff66b3;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+            margin: 10px 0;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .button:hover {
+            background-color: #ff99cc;
+        }
+
+        .content {
+            max-width: 600px;
+            padding: 20px; /* Padding for content */
+            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+            border-radius: 10px; /* Rounded corners */
+            margin-bottom: 30px; /* Space below the content */
+        }
+
+        .artworks {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .artwork {
+            border: 2px solid white;
+            border-radius: 5px;
+            max-width: 250px; /* Limit width */
+            transition: transform 0.3s; /* Animation on hover */
+        }
+
+        .artwork:hover {
+            transform: scale(1.05); /* Scale up on hover */
+        }
+
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.9em;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kaye Sadji Padungao</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#work">Work Experience</a>
+            <a href="#social">Social Media</a>
+            <a href="#artworks">Artworks</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <img src="images/462560549_1333319127636726_7056012790542784649_n.jpg" alt="Kaye Sadji Padungao" class="profile-pic">
+    <div class="content" id="about">
+        <h3>About Me</h3>
+        <p>Multimedia Art Student at FEU Tech | 20 years old | Focused on integrating visual art with digital technology to develop innovative media projects.</p>
+
+        <h3 id="work">Work Experience</h3>
+        <ul>
+            <li>2023 - Present: FEU Tech</li>
+            <li>2021 - 2023: De La Salle Araneta University</li>
+            <li>2017 - 2020: Quezon City Academy</li>
+        </ul>
+
+        <h4 id="social">Social Media</h4>
+        <p>I'm a micro social influencer with 157k engaged followers, specializing in beauty and lifestyle content. Proven track record with prominent brands such as Lovito, Barenbliss, Mikana, Vitabears, Pinkflash, Sacelady, Kimuse, Jujuglow, Flower Knows, Block and Glow, and many more. Adapt at creating authentic and compelling content that resonates with the audience, driving brand awareness and engagement. Passionate about staying ahead of trends and delivering value to both followers and partners. Strong skills in social media strategy, content creation, and community engagement.</p>
+
+        <h3 id="artworks">My Traditional Artworks</h3>
+        <div class="artworks">
+            <img src="images/art1.jpg" alt="Artwork 1" class="artwork">
+            <img src="images/art2.jpg" alt="Artwork 2" class="artwork">
+        </div>
+
+        <a href="https://www.tiktok.com/@seoshhi" class="button" target="_blank">View My Work</a>
+        <button class="button">Contact Me</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Kaye Sadji Padungao. All rights reserved.</p>
+    </footer>
+</body>
+</html>
