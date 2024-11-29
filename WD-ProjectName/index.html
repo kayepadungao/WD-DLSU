@@ -3,181 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaye Sadji Padungao - Portfolio</title>
-    <link rel="stylesheet" href="ASSETS/css/style.css">
+    <meta name="description" content="De La Salle University Manila Official Website">
+    <title>De La Salle University</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background: linear-gradient(to bottom right, #ffccff, #ff99cc);
-            font-family: Helvetica, sans-serif;
-            color: white;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f9;
         }
-
         header {
-            background-color: #ff66b3;
-            width: 100%;
-            padding: 10px 0;
-            text-align: center;
+            background-color: #006747;
+            padding: 15px 0;
         }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
+        header img {
+            width: 180px;
+        }
+        .navbar-nav a {
+            color: white !important;
             font-weight: bold;
         }
-
-        nav a:hover {
-            text-decoration: underline;
+        .navbar-nav a:hover {
+            color: #a1d9d0 !important;
         }
-
-        .profile-pic {
-            margin-top: 20px;
-            border: 6px solid white;
-            width: 300px;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 50%; /* Circular border */
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 20px 0 10px 0;
-            color: #ff66b3;
-        }
-
-        h3 {
-            font-size: 1.8em;
-            margin-top: 20px;
-            margin-bottom: 10px;
-            color: #ff66b3;
-            font-family: 'Arial', sans-serif;
-        }
-
-        h4 {
-            font-size: 1.5em;
-            margin-top: 15px;
-            margin-bottom: 5px;
-            color: #ff66b3;
-            font-family: 'Arial', sans-serif;
-        }
-
-        p {
-            color: white;
-            line-height: 1.6;
-            max-width: 600px;
-            text-align: justify; /* Justify text for a cleaner look */
-        }
-
-        hr {
-            border: 1px solid white;
-            margin: 20px 0;
-            width: 100%; /* Full width */
-        }
-
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        li {
-            margin: 5px 0;
-        }
-
-        .button {
-            background-color: white;
-            color: #ff66b3;
-            border: none;
-            padding: 10px 20px;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            transition: background-color 0.3s;
-            margin: 10px 0;
-            text-decoration: none;
-            display: inline-block;
-        }
-
-        .button:hover {
-            background-color: #ff99cc;
-        }
-
-        .content {
-            max-width: 600px;
-            padding: 20px; /* Padding for content */
-            background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
-            border-radius: 10px; /* Rounded corners */
-            margin-bottom: 30px; /* Space below the content */
-        }
-
-        .artworks {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 20px;
-        }
-
-        .artwork {
-            border: 2px solid white;
-            border-radius: 5px;
-            max-width: 250px; /* Limit width */
-            transition: transform 0.3s; /* Animation on hover */
-        }
-
-        .artwork:hover {
-            transform: scale(1.05); /* Scale up on hover */
-        }
-
-        footer {
-            margin-top: 30px;
+        .hero {
+            background-color: #a1d9d0;
+            padding: 50px 0;
             text-align: center;
-            font-size: 0.9em;
+            color: #006747;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.25rem;
+        }
+        .container {
+            max-width: 1200px;
+        }
+        footer {
+            background-color: #006747;
             color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .section-header {
+            color: #006747;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        .section-content {
+            font-size: 1rem;
+            color: #555;
+            text-align: justify;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Kaye Sadji Padungao</h1>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#work">Work Experience</a>
-            <a href="#social">Social Media</a>
-            <a href="#artworks">Artworks</a>
-            <a href="#contact">Contact</a>
-        </nav>
+
+    <!-- Header Section -->
+    <header class="bg-dark text-white p-3">
+        <div class="container d-flex justify-content-between align-items-center">
+            <img src="logo.jpg" alt="De La Salle University Logo">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('home')">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('about')">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('academics')">Academics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('admissions')">Admissions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('research')">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#" onclick="showSection('contact')">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <img src="img/462560549_1333319127636726_7056012790542784649_n.jpg" alt="Kaye Sadji Padungao" class="profile-pic">
-    <div class="content" id="about">
-        <h3>About Me</h3>
-        <p>Multimedia Art Student at FEU Tech | 20 years old | Focused on integrating visual art with digital technology to develop innovative media projects.</p>
+    <!-- Hero Section (Home) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Welcome to De La Salle University</h1>
+            <p>Your gateway to excellence in education, research, and service.</p>
+            <button class="btn btn-primary" onclick="showSection('about')">Learn More About Us</button>
+        </div>
+    </section>
 
-        <h3 id="work">Work Experience</h3>
-        <ul>
-            <li>2023 - Present: FEU Tech</li>
-            <li>2021 - 2023: De La Salle Araneta University</li>
-            <li>2017 - 2020: Quezon City Academy</li>
-        </ul>
-
-        <h4 id="social">Social Media</h4>
-        <p>I'm a micro social influencer with 157k engaged followers, specializing in beauty and lifestyle content. Proven track record with prominent brands such as Lovito, Barenbliss, Mikana, Vitabears, Pinkflash, Sacelady, Kimuse, Jujuglow, Flower Knows, Block and Glow, and many more. Adapt at creating authentic and compelling content that resonates with the audience, driving brand awareness and engagement. Passionate about staying ahead of trends and delivering value to both followers and partners. Strong skills in social media strategy, content creation, and community engagement.</p>
-
-        <h3 id="artworks">My Traditional Artworks</h3>
-        <div class="artworks">
-            <img src="img/art1.jpg" alt="Artwork 1" class="artwork">
-            <img src="img/art2.jpg" alt="Artwork 2" class="artwork">
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <!-- About Us Section -->
+        <div id="about" class="section" style="display:none;">
+            <h2 class="section-header">About Us</h2>
+            <p class="section-content">
+                De La Salle University (DLSU) is a leading private Catholic research university in the Philippines. Founded in 1911 by the Brothers of the Christian Schools, DLSU provides education rooted in the values of faith, service, and excellence. DLSU has a rich history of producing leaders who have shaped the Philippines’ development and made an impact globally.
+            </p>
+            <p class="section-content">
+                Our mission is to produce graduates who are highly skilled, socially responsible, and have the ability to make a positive impact in society. Through innovative research, quality education, and a strong sense of community, we prepare students for the challenges of tomorrow.
+            </p>
         </div>
 
-        <a href="https://www.tiktok.com/@seoshhi" class="button" target="_blank">View My Work</a>
-        <button class="button">Contact Me</button>
+        <!-- Academics Section -->
+        <div id="academics" class="section" style="display:none;">
+            <h2 class="section-header">Academics</h2>
+            <p class="section-content">
+                De La Salle University offers a wide range of undergraduate, graduate, and post-graduate programs. Our academic programs emphasize critical thinking, leadership, and the development of technical and soft skills.
+            </p>
+            <h4 class="section-header">Undergraduate Programs</h4>
+            <ul class="section-content">
+                <li>Business Administration (Marketing, Management, Accounting)</li>
+                <li>Engineering (Mechanical, Civil, Electrical, Chemical)</li>
+                <li>Computer Science (AI, Data Science, Software Engineering)</li>
+                <li>Social Sciences (Political Science, Psychology, Sociology)</li>
+            </ul>
+            <h4 class="section-header">Graduate Programs</h4>
+            <ul class="section-content">
+                <li>Master of Business Administration (MBA)</li>
+                <li>Master of Science in Engineering</li>
+                <li>PhD in Management</li>
+            </ul>
+        </div>
+
+        <!-- Admissions Section -->
+        <div id="admissions" class="section" style="display:none;">
+            <h2 class="section-header">Admissions</h2>
+            <p class="section-content">
+                At De La Salle University, we welcome students who are eager to grow academically and personally. Our admission process is designed to evaluate candidates holistically, considering both academic performance and other criteria such as extracurricular activities and leadership potential.
+            </p>
+            <h4 class="section-header">How to Apply</h4>
+            <p class="section-content">To apply, students must complete an online application and submit their academic records, recommendation letters, and a personal essay. DLSU also holds entrance exams for certain programs.</p>
+        </div>
+
+        <!-- Research Section -->
+        <div id="research" class="section" style="display:none;">
+            <h2 class="section-header">Research</h2>
+            <p class="section-content">
+                De La Salle University is committed to advancing knowledge through research and innovation. Our research programs focus on addressing real-world problems, and we collaborate with industries and communities to produce research that impacts society positively.
+            </p>
+            <p class="section-content">
+                Our faculty members are involved in a variety of research projects, and students are encouraged to participate in research activities as part of their academic journey.
+            </p>
+        </div>
+
+        <!-- Contact Section -->
+        <div id="contact" class="section" style="display:none;">
+            <h2 class="section-header">Contact Us</h2>
+            <p class="section-content">You can contact De La Salle University through the following:</p>
+            <p class="section-content"><strong>Email:</strong> info@dlsu.edu.ph</p>
+            <p class="section-content"><strong>Phone:</strong> +63 2 524 4611</p>
+            <p class="section-content"><strong>Address:</strong> 2401 Taft Ave, Manila, Philippines</p>
+        </div>
     </div>
 
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; 2024 Kaye Sadji Padungao. All rights reserved.</p>
+        <div class="container">
+            <p>© 2024 De La Salle University. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- JavaScript to toggle sections -->
+    <script>
+        // Function to show the selected section
+        function showSection(section) {
+            // Hide all sections
+            var sections = document.querySelectorAll('.section');
+            sections.forEach(function(sec) {
+                sec.style.display = 'none';
+            });
+
+            // Show the selected section
+            document.getElementById(section).style.display = 'block';
+        }
+
+        // Default to show the Home section
+        window.onload = function() {
+            showSection('home');
+        }
+    </script>
+
 </body>
 </html>
