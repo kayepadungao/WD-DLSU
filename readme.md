@@ -17,7 +17,7 @@
 </div>
 
 <br />
-![](https://wakatime.com/dashboard/day?date=2024-11-29)
+[![wakatime](https://wakatime.com/dashboard/day?date=2024-11-29)
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![kayepadungao](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
