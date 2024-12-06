@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src=".assets/img/logo.jpg" alt="De La Salle University" width="130" height="100">
+    <img src="logo-dlsu-id-manual-2019.jpg" alt="De La Salle University Logo" width="130" height="100"=>
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">De La Salle University</h3>
