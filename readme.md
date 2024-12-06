@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src=![De La Salle University Logo](https://github.com/kayepadungao/WD-PracticeCode-1/main/assets/imglogo-dlsu-id-manual-2019)" height="100">
+    <img src=".assets/img/logo.jpg" alt="De La Salle University" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">De La Salle University</h3>
@@ -65,8 +65,6 @@ De La Salle University (DLSU) is a prestigious private Catholic research univers
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
 This project is a website for De La Salle University (DLSU) that aims to provide comprehensive information about the university’s academic programs, admissions, campus facilities, events, and student services. The website's purpose is to serve as an accessible and user-friendly platform for prospective and current students, faculty, and staff, offering essential resources such as course catalogs, news updates, and student support services. Key components include a homepage with navigation to different sections, academic program details, an events and news section, and resources for students. The site utilizes HTML for structure, CSS for responsive styling, and JavaScript for interactivity, such as dynamic event calendars and smooth transitions, creating a functional and engaging user experience.
-
-
 
 
 
