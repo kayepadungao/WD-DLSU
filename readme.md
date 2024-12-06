@@ -6,18 +6,25 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/logo-dlsu-id-manual-2019" width="130" height="100">
+    <img src=![De La Salle University Logo](https://github.com/kayepadungao/WD-PracticeCode-1/main/assets/imglogo-dlsu-id-manual-2019)" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">De La Salle University</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
- Your gateway to excellence in education, research, and service.
+De La Salle University (DLSU) is a prestigious private Catholic research university located in Manila, Philippines. Established in 1911 by the Brothers of the Christian Schools, it is renowned for its strong academic programs, cutting-edge research, and commitment to developing leaders who make a meaningful impact on society. DLSU offers a wide range of undergraduate, graduate, and doctoral programs across various disciplines, including business, engineering, computer science, social sciences, and humanities. The university is guided by the values of faith, service, and excellence, empowering students to succeed in their academic and professional pursuits while fostering a deep sense of social responsibility.
 </div>
 
 <br />
-[![wakatime](https://wakatime.com/dashboard/day?date=2024-11-29)
+<div style="display: flex; align-items: center;">
+    <a href="https://wakatime.com/dashboard" target="_blank">
+        <img src="https://wakatime.com/static/img/wakatime-icon.svg" alt="WakaTime Icon" style="width: 30px; margin-right: 10px;">
+    </a>
+    <a href="https://wakatime.com/dashboard" target="_blank" style="font-size: 1rem; color: #006747;">My WakaTime Dashboard</a>
+</div>
+
+
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
 ![kayepadungao](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
