@@ -59,10 +59,6 @@
 <!-- The following are just sample -->
 This project is a website for De La Salle University (DLSU) that aims to provide comprehensive information about the university’s academic programs, admissions, campus facilities, events, and student services. The website's purpose is to serve as an accessible and user-friendly platform for prospective and current students, faculty, and staff, offering essential resources such as course catalogs, news updates, and student support services. Key components include a homepage with navigation to different sections, academic program details, an events and news section, and resources for students. The site utilizes HTML for structure, CSS for responsive styling, and JavaScript for interactivity, such as dynamic event calendars and smooth transitions, creating a functional and engaging user experience.
 
-- What technology used and how it is used
-- HTML: Structures the web pages and organizes content.
-CSS: Styles the website for a responsive and visually appealing design.
-JavaScript: Adds interactivity, such as dynamic content and smooth transitions.
 
 
 
@@ -70,9 +66,8 @@ JavaScript: Adds interactivity, such as dynamic content and smooth transitions.
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- Navigation Menu
+- Multisection layout
 
 ### Technology
 <!-- TODO: List of Technology Used -->
