@@ -19,7 +19,7 @@ De La Salle University (DLSU) is a prestigious private Catholic research univers
 <br />
 <div style="display: flex; align-items: center;">
     <a href="https://wakatime.com/dashboard" target="_blank">
-        <img src="https://wakatime.com/static/img/wakatime-icon.svg" alt="WakaTime Icon" style="width: 30px; margin-right: 10px;">
+        <img src="https://wakatime.com/static/img/wakatime-icon.svg" alt="WakaTime" style="width: 30px; margin-right: 10px;">
     </a>
     <a href="https://wakatime.com/dashboard" target="_blank" style="font-size: 1rem; color: #006747;">My WakaTime Dashboard</a>
 </div>
@@ -119,4 +119,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| DLSU | The official website of De La Salle University (DLSU) provides comprehensive information about the university, including its academic programs, admissions, campus life, research initiatives, and news. It serves as a hub for students, faculty, alumni, and prospective students, offering easy access to resources, announcements, and services related to the Lasallian community. The website reflects DLSU's commitment to excellence in education and social responsibility. | https://www.dlsu.edu.ph/
